@@ -74,5 +74,5 @@ setuptools.setup(
         make_extension("roi_sampling", "grasp_det_seg.utils")
     ],
     cmdclass={"build_ext": BuildExtension},
-    include_package_data=True,
+    include_package_data=False,
 )
